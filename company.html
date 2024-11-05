@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <style>
+        .header{
+            display: flex;
+     justify-content: space-between;
+    align-items: left;
+     padding: 30px;
+     margin-top: 150px;
+     
+     
+        }
+
+
+        .kotak{
+            background-color: black;
+            color: lightblue;
+            padding: 10px;
+            margin: 50px;
+            border-radius: 5px;
+            width: 100px;
+            font-size: 18px;
+            font-weight: italic
+        }
+        
+        
+      .navbar{
+        
+      position: fixed;
+      top: 0px;
+      width: 99%;
+      background-color: black;
+      padding: 20px;
+      left: 0px;
+      font-size: 20px;
+      text-align: right;
+   
+      
+      
+      }
+        
+        .navbar a{
+            color: white;
+            padding: 20px;
+            
+            
+        }
+       .gambar{
+           text-align: center;
+       }
+       .text{
+           margin-top: 10px;
+       }
+
+
+
+
+       .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: black;
+        color: white;
+       }
+       
+       .item{
+        flex: 1 1 25%;
+        margin: 20px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+
+       .container2{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        margin-top: 40px;
+        margin-left: 120px;
+        margin-right: 120px;
+       }
+
+       .card{
+        display: flex;
+        background-color: gray;
+        border-radius: 15px;
+        padding: 20px;
+        width: 48%;
+        box-shadow: 0 4px 8px lightgray(0, 0 ,0, 0.1);
+
+       }
+
+       .card img{
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 20px;
+       }
+
+       .card-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       }
+
+       .card-content h3{
+        font-size: 18px;
+        margin-bottom: 10px;
+
+       }
+        
+        .card content p{
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+           
+        .tulisan{
+            font-size: 72px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+            color: Blue;
+        }
+  
+            
+        
+
+        .gambar12{
+            border-radius: 50%;
+    
+        }
+
+        .Visi{
+            margin-left: 60%;
+
+            
+        }
+
+        .visi{
+            text-align: center;
+            
+        }
+
+        .misi1{
+            margin-left: 60%;
+
+        }
+
+        .misi{
+            text-align: center;
+        }
+
+        .visimisi h1{
+            font-size: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+
+    .visimisi{ 
+            text-align: center;
+        } 
+
+       
+        .tujuan{
+            text-align: center;
+        }
+
+        .tujuan p{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+
+        .judul0{
+            color: blue;
+            font-size: 50px;
+            margin-left: 100px;
+        }
+
+        .team{
+            text-align: center;
+            color: blue;
+            font-size: 80px;
+            margin-top: 150px;
+        }
+
+        .image1{
+            text-align: left;
+            padding: 50px;
+            width: 300px
+            
+        }
+
+        .image2{
+            text-align: center;
+            padding: 50px;
+            width: 300px;
+        }
+
+        .image3{
+            text-align: right;
+            padding: 50px;
+            width: 300px;
+        }
+
+        .image{
+            margin-left: 140px;
+        }
+
+    .career{
+        color: blue;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .persegi1{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+       
+    }
+
+    .persegi2{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+      
+    }
+
+    .persegi3{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+    .persegi4{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .persegi5{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .persegi6{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+    }
+    
+.persegi7{
+    background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+}
+
+.persegi8{
+    background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+}
+
+
+
+    .bloka{
+        display:flex;
+        gap: 50px;
+        padding: 40px;
+        margin-left: 130px;
+    }
+    .blokb{
+        display:flex;
+        gap: 50px;
+        padding: 40px;
+        margin-left: 130px;
+    }
+
+    .kerja{
+        color: gray;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .indu{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 200px;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+    .blokc{
+        display: flex;
+        gap: 100px;
+        margin-left: 100px;
+    }
+
+    .indu2{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 200px;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .blokd{
+        display: flex;
+        gap: 100px;
+        margin-left: 100px;
+    }
+    
+        
+    </style>
+    <meta charset="UTF-8">
+    <title>Rekayasa Perangkat Lunak</title>
+</head>
+<body>
+     
+     
+    
+      <nav class="navbar">
+          <a href=" hshsh">Home</a>
+          <a href="hshsh">Program</a>
+          <a href="hshshs">Prestasi</a>
+          <a href="hshsh">Industri</a>
+          <a href="hrhdh">Karir</a>
+          <a href="hdhdhd">TentangKami</a>
+      </nav>
+      
+       <header class="header">
+           <div>
+       <h1 style="color: blue"> REKAYASA <br>PERANGKAT LUNAK<br></h1>
+       
+        <p class="text">
+             Perangkat lunak adalah istilah khusus untuk<br> data yang diformat dan disimpan secara digital, termasuk program komputer,<br>dokumentasinya, dan berbagai informasi yang bisa dibaca, dan ditulis oleh komputer. <br>Dengan kata lain, bagian sistem komputer yang tidak berwujud.<br>
+          </p>
+             </div>
+
+             
+       
+        <div class="gambar">
+          <img width="400px" src="gambar10.jpg">
+      </div>
+      
+       </header>
+
+       <div class="kotak">NEXT >>> </div>
+        
+
+      
+
+
+
+
+
+
+       <hr>
+       <section class="container">
+        <div class="item">
+
+            <h3>UI/UX</h3>
+
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, libero laboriosam! Impedit, cum? Autem suscipit esse sit omnis consequatur hic, odio natus veniam officia rerum? Recusandae esse nemo necessitatibus amet.</p>
+
+        </div>
+        <div class="item">
+            <h3>WEB</h3>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit eveniet, itaque perspiciatis autem ipsa maxime incidunt dicta, corporis facere laborum, et beatae molestias quia magnam dignissimos mollitia sint exercitationem.</p>
+                </div>
+        <div class="item">
+             <h3>MOBILE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam accusamus cum iusto, obcaecati ab tempore officia omnis vitae ut <br>adipisci qui optio et soluta voluptatum? Dicta accusantium nobis harum voluptatum.</p>
+        </div>
+        <div class="item">
+            <h3>OOP</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem atque voluptatum incidunt nisi non quo fugit voluptatem, veniam eaque corrupti maxime impedit minima eum sint expedita repellendus voluptas quisquam est?</p>
+
+        </div>
+        <div class="item">
+            <h3>BASIS DATA</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quos nesciunt placeat adipisci quibusdam explicabo debitis hic saepe aliquam qui, et tempora nam similique unde autem nobis veniam perspiciatis repellendus?</p>
+        </div>
+
+        <div class="item">
+            <h3>GAME</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quis. Enim rem quam vero ipsa, molestiae dolore in fugit id minima eligendi eaque quis sapiente! Cumque, adipisci. Deserunt, ipsum unde.</p>
+        </div>
+
+
+    </section>
+
+
+
+
+        <section>
+            <div>
+                <h1 class="tulisan">GENERASI TEKNOLOGI <br> <span style="color: gray;">PENCETAK PRESTASI</span></h1>
+            </div>
+            <div class="container2">
+                <div class="card"> <img src="orb.jpg">
+                    <div class="card-content">
+               
+            
+    
+                    <h3> RPL MENOREHKAN PRESTASI</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis molestias animi nam, necessitatibus non sapiente deleniti sunt natus neque distinctio quasi odio eligendi ullam quod commodi veniam consequuntur ea! Quidem?</p>
+                    </div>
+                
+            </div>
+       
+     
+        
+            <div class="card"> <img src="Ultraman.jpg">
+                <div class="card-content">
+           
+        
+
+                <h3> RPL MENOREHKAN PRESTASI</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis molestias animi nam, necessitatibus non sapiente deleniti sunt natus neque distinctio quasi odio eligendi ullam quod commodi veniam consequuntur ea! Quidem?</p>
+                </div>
+            </div>
+        </div>
+        <section class="fftentang">
+
+
+           
+
+     
+        <div>
+            <h3 class="judul0"> <span style="color: gray;">TENTANG</span> KAMI </h3>
+          <div class="atur" style="display: flex;">
+           <div class="gambaru">
+           <img width="400px" src="UltramanOrb.jpg" style="margin-left: 100px;">
+         </div>
+         <div class="visimisi">
+            <h1>VISI</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolorem debitis quasi, quidem aut rem nostrum animi sunt dolore, consectetur, eveniet neque labore doloribus officia quae commodi. Laborum, qui a.</p>
+            <h1>MISI</h1>
+            <p>1.Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>2.Molestiae sit nam quae dolor odit possimus praesentium excepturi, perspiciatis <br>3.tenetur eos voluptatum dicta quod iusto earum dolore quam fuga atque commodi?</p>
+        </div>
+    </div>
+        
+    </div>
+       
+<div class="tujuan">
+    <h1> TUJUAN </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquid ipsa laboriosam, accusantium magnam eum est quaerat molestiae voluptatibus qui neque nemo alias adipisci! Nihil aut vel hic vitae mollitia!
+    Sunt fugit id asperiores nesciunt non dolor excepturi a numquam illum aspernatur veniam facilis quas impedit explicabo reiciendis quos, tenetur incidunt repellat cupiditate animi voluptatum dolorem, blanditiis quod delectus! Distinctio.</p>
+
+    </div>
+
+      </section>
+     
+      <section>
+        <h1 class="team">TIM <span style="color: gray;">PENGAJAR</span></h1>
+        <div class="image">
+        <img class="image1" src="kurenai.jpg">
+        <img class="image2" src="yuma.jpg">
+        <img class="image3" src="kanata1.jpg">
+        </div>
+    </section>
+    <section>
+        <h1 class="career"> <span style="color: gray;">PELUANG</span> KARIR</h1>
+    <div class="bloka">
+        <div class="persegi1">
+            PROGRAMER
+        </div>
+        <div class="persegi2">
+            PROGRAMER
+        </div>
+        <div class="persegi3">
+            PROGRAMER
+        </div>
+        <div class="persegi4">
+            PROGRAMER
+        </div>
+    </div>
+    <div class="blokb">
+        <div class="persegi5">
+            PROGRAMER
+        </div>
+        <div class="persegi6">
+            PROGRAMER
+        </div>
+        <div class="persegi7">
+            PROGRAMER
+        </div>
+        <div class="persegi8">
+            PROGRAMER
+        </div>
+    </div>
+    </section>
+    <section>
+        <h1 class="kerja"><span style="color: blue;">KERJASAMA</span> INDUSTRI</h1>
+  <div class="blokc">
+        <div class="indu">
+            <img width="55px" src="java.jpg">
+            <h3>JAVA</h3>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, officia sapiente corrupti animi in laboriosam vel deserunt rem autem eius asperiores a. Velit aspernatur ad minima incidunt eius inventore expedita.</p>
+        </div>
+        <div class="indu">
+            <img width="55px" src="java.jpg">
+            <h3>JAVA</h3>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, officia sapiente corrupti animi in laboriosam vel deserunt rem autem eius asperiores a. Velit aspernatur ad minima incidunt eius inventore expedita.</p>
+        </div>
+        <div class="indu">
+            <img width="55px" src="java.jpg">
+            <h3>JAVA</h3>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, officia sapiente corrupti animi in laboriosam vel deserunt rem autem eius asperiores a. Velit aspernatur ad minima incidunt eius inventore expedita.</p>
+        </div>
+        <div class="indu">
+            <img width="55px" src="java.jpg">
+            <h3>JAVA</h3>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, officia sapiente corrupti animi in laboriosam vel deserunt rem autem eius asperiores a. Velit aspernatur ad minima incidunt eius inventore expedita.</p>
+        </div>
+     </div>
+
+     <div class="blokd">
+        <div class="indu2">
+            <img width="55px" src="python.jpg">
+            <h3>PYTHON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit iure explicabo reiciendis, nesciunt vel necessitatibus quidem optio eos autem fuga error, consequuntur ipsa debitis unde corrupti, cumque exercitationem quis.</p>
+        </div>
+        <div class="indu2">
+            <img width="55px" src="python.jpg">
+            <h3>PYTHON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit iure explicabo reiciendis, nesciunt vel necessitatibus quidem optio eos autem fuga error, consequuntur ipsa debitis unde corrupti, cumque exercitationem quis.</p>
+        </div>
+        <div class="indu2">
+            <img width="55px" src="python.jpg">
+            <h3>PYTHON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit iure explicabo reiciendis, nesciunt vel necessitatibus quidem optio eos autem fuga error, consequuntur ipsa debitis unde corrupti, cumque exercitationem quis.</p>
+        </div>
+        <div class="indu2">
+            <img width="55px" src="python.jpg">
+            <h3>PYTHON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit iure explicabo reiciendis, nesciunt vel necessitatibus quidem optio eos autem fuga error, consequuntur ipsa debitis unde corrupti, cumque exercitationem quis.</p>
+        </div>
+     </div>
+
+    </section>
+
+
+
+
+</body>
+</html>
